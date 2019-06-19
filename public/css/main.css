@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes');
+@import url('https://fonts.googleapis.com/css?family=Marck+Script');
+body{
+    background:#95afc0;
+}
+.dashboard-card{
+    
+    background-image: url('https://images.pexels.com/photos/54455/cook-food-kitchen-eat-54455.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    color:white;
+}
+.dashboard-button{
+    color:white !important;
+}
+.subb-card{
+    background:rgba(225,225,225,0.2);
+    border:1px solid white;
+    margin:5px;
+}
+.sub-button{
+    height:100px;
+    width:200px;
+    color:green;
+}
+.add-menu-head{
+    font-family: 'Roboto Slab', serif;
+}
+.invoice-box {
+    max-width: 800px;
+    margin: auto;
+    padding: 30px;
+    border: 1px solid #eee;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .15);
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif;
+    color: #555;
+    background:white;
+}
+
+.invoice-box table {
+    width: 100%;
+    line-height: inherit;
+    text-align: left;
+    
+}
+
+.invoice-box table td {
+    padding: 5px;
+    vertical-align: top;
+}
+
+.invoice-box table tr td:nth-child(2) {
+    text-align: right;
+}
+
+.invoice-box table tr.top table td {
+    padding-bottom: 20px;
+}
+
+.invoice-box table tr.top table td.title {
+    font-size: 45px;
+    line-height: 45px;
+    color: #333;
+}
+
+.invoice-box table tr.information table td {
+    padding-bottom: 40px;
+}
+
+.invoice-box table tr.heading td {
+    border-bottom: 1px solid #ddd;
+    font-weight: bold;
+}
+
+.invoice-box table tr.details td {
+    padding-bottom: 20px;
+}
+
+.invoice-box table tr.item td{
+    border-bottom: 1px solid #eee;
+}
+
+.invoice-box table tr.item.last td {
+    border-bottom: none;
+}
+
+.invoice-box table tr.total td:nth-child(2) {
+    border-top: 2px solid #eee;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+    .invoice-box table tr.top table td {
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+    
+    .invoice-box table tr.information table td {
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+}
+
+/** RTL **/
+.rtl {
+    direction: rtl;
+    font-family: Tahoma, 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif;
+}
+
+.rtl table {
+    text-align: right;
+}
+
+.rtl table tr td:nth-child(2) {
+    text-align: left;
+}
+.closure{
+    color:white;
+    font-size:16px;
+}
+.brandi{
+    font-size:22px !important;
+    font-family: 'Marck Script', cursive;
+}
+.flip-card {
+    background-color: transparent;
+    height:200px !important;
+    width:300px;
+    margin:5px;
+    font-family: 'Roboto Slab', serif;
+    cursor: pointer;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+    color: white !important;
+    padding-top:80px;
+    z-index: 2;
+    background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+  }
+  
+  .flip-card-back {
+     color: white !important;
+    transform: rotateY(180deg);
+    z-index: 1;
+    background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+  padding-top:50px;
+  }
+  .first-front{
+    background-image: url('https://images.pexels.com/photos/616404/pexels-photo-616404.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  }
+  .first-back{
+    background-image: url('https://images.pexels.com/photos/326279/pexels-photo-326279.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');    
+  }
+  .res-front{
+      background-image: url('https://images.pexels.com/photos/573552/pexels-photo-573552.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  }
+  .res-back{
+      background-image:url('https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  }
+  .hotel-front{
+      background-image: url('https://images.pexels.com/photos/976866/pexels-photo-976866.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  }
+  .hotel-back{
+      background-image: url('https://images.pexels.com/photos/919734/pexels-photo-919734.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  }
+  .avail-front{
+      background-image: url('https://images.pexels.com/photos/261684/pexels-photo-261684.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  }
+  .avail-back{
+      background-image: url('https://images.pexels.com/photos/3219/love-romantic-date-candlelight.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  }
+  .room-front{
+      background-image:url('https://images.pexels.com/photos/1439965/pexels-photo-1439965.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  }
+  .room-back{
+      background-image:url('https://images.pexels.com/photos/775219/pexels-photo-775219.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  }
+  .lodge-front{
+      background-image: url('https://images.pexels.com/photos/48828/pexels-photo-48828.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  }
+  .lodge-back{
+      background-image:url('https://images.pexels.com/photos/271743/pexels-photo-271743.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  }
+  .event-front{
+    background-image: url('https://images.pexels.com/photos/1105666/pexels-photo-1105666.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  }
+  .event-back{
+    background-image: url('https://images.pexels.com/photos/225228/pexels-photo-225228.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  }
+  .set-front{
+    background-image: url('https://images.pexels.com/photos/270700/pexels-photo-270700.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  }
+  .set-back{
+    background-image: url('https://images.pexels.com/photos/401794/pexels-photo-401794.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  }
+  .report-front{
+    background-image: url('https://images.pexels.com/photos/209137/pexels-photo-209137.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  }
+  .report-back{
+    background-image: url('https://images.pexels.com/photos/1181776/pexels-photo-1181776.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  }
+  .modalor{
+      background:  red;
+  }
+  .ncount{
+      background:yellow;
+      border-radius:50%;
+      color:black;
+  }
+  .nodata{
+      margin-top:100px;
+      color:white;
+      font-size:22px;
+  }
+  .emoji{
+      margin-left:150px;
+  }
+  .form-group label{
+      color:black !important;
+  }
